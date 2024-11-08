@@ -1,0 +1,46 @@
+# Ignore Mac system files
+.DS_Store
+
+# Ignore Windows system files
+Thumbs.db
+
+# Ignore Python compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore virtual environment directory
+venv/
+
+# Ignore Environment Variables
+.env
+
+# Ignore PyCharm specific files
+.idea/
+*.iml
+
+# Ignore IntelliJ IDEA and Android Studio specific files
+*.iws
+*.ipr
+
+# Ignore JetBrains IDE project files
+*.idea/
+
+# Ignore workspace files
+workspace.xml
+
+# Ignore logs and databases
+*.log
+*.sql
+
+# Ignore dump files
+*.dump
+
+# Ignore .pth files
+*.pth
+
+# Ignore data folder
+data/
