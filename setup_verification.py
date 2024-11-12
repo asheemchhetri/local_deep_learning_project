@@ -52,8 +52,7 @@ if _is_gpu_available:
     gpu_count = torch.cuda.device_count()
     print(f"GPU found for this system\nNumber of GPU's found :: {gpu_count}\n{'-' * 120}\n")
     for gpu_device_index in range(gpu_count):
-        print(
-            f"Device {gpu_device_index} :: {str(torch.cuda.get_device_name(gpu_device_index))}\n")
+        print(f"Device {gpu_device_index} :: {str(torch.cuda.get_device_name(gpu_device_index))}\n")
         validate_gpu(gpu_device_index)
 else:
     # If no GPU is found, perform the operation on the CPU
